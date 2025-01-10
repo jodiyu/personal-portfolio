@@ -23,9 +23,18 @@
                 </ul>
             </nav>
             <div class="header-text">
-                <h1>Hi, I'm <span>Jodi Yu</span></h1>
+                <h1>Hi, I'm <span id = "element"></span></h1>
                 <p>CS & Math Student</p>
             </div>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed('#element', {
+                  strings: ['Jodi Yu'],
+                  typeSpeed: 150,
+                  backSpeed: 150,
+                  loop: true
+                });
+              </script>     
         </div>
     </div>
 
@@ -174,7 +183,7 @@
                     <a href="https://github.com/jodiyu"><i class="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/jodi-yu-6104022a4/"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
-                <a href="images/my-resume.pdf" download class="btn btn2">Download Resume</a>
+                <a href="images/my-resume-updated.pdf" download class="btn btn2">Download Resume</a>
             </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
