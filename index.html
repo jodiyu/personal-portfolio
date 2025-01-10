@@ -16,53 +16,86 @@
                 <img src = "images/logo.png" class="logo">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Other Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="header-text">
-                <p>CS & Math Student</p>
                 <h1>Hi, I'm <span>Jodi Yu</span></h1>
+                <p>CS & Math Student</p>
             </div>
         </div>
     </div>
+
     <!-- ABOUT -->
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.png">
+                    <img src="images/user.jpeg">
                 </div>
                 <div class="about-col-2">
                     <h1 class = "sub-title">About Me</h1>
-                    <p>Hi, I'm Jodi Yu, a Computer Science and Math student at Boston University.</p>
+                    <p>Hi, my name is Jodi Yu, and I am a Computer Science and Mathematics student at Boston University. 
+                        In my free time, I like to dance, read, and hike. </p>
                 
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('skills')">Relevant Coursework</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
-                    <div class="tab-contents active-tab" id="skills"> 
+                    <div class="tab-contents" id="skills"> 
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                            <li><span>Web development</span><br>Blah</li>
-                            <li><span>App development</span><br>Designing Web/App Interfaces</li>
+                            <li><span><i>Mathematics
+                            </i></span><br>Discrete Math, Linear Algebra, Advanced Statistics and Probability, Differential Equations, Vector Calculus
+                            </li>
+
+                            <li><span><i>Computer Science
+                            </i></span><br>Computer Systems, Data Structures, Algorithms, Data Science
+                            </li>
+
+                            <li><span><i>Languages
+                            </i></span><br> C++, C, Python, Java, Swift, Matlab, Assembly, R
+                            </li>
                         </ul>
                     </div>
-                    <div class="tab-contents" id="experience">
+                    <div class="tab-contents active-tab" id="experience">
                         <ul>
-                            <li><span>2020-current</span><br>Designing Web/App Interfaces</li>
-                            <li><span>2019-2020</span><br>Designing Web/App Interfaces</li>
-                            <li><span>2017-2019</span><br>Designing Web/App Interfaces</li>
+                            <li><span><i>January 2025 - PRESENT
+                            </i></span><br><b>Bridging Tech
+                            </b><br> TBD
+                            </li>
+
+                            <li><span><i>September 2024 - PRESENT
+                            </i></span><br><b>BU Department of Computer Science
+                            </b><br> CS111 Course Assistant
+                            </li>
+
+                            <li><span><i>November 2023 - July 2024
+                            </i></span><br><b>STEPP Lab for Sensorimotor Rehabilitation Engineering
+                            </b><br> Data Analysis Research Assistant
+                            </li>
+                            <li><span><i>September 2023 - PRESENT
+                            </i></span><br><b>Association for Women in Mathematics
+                            </b><br> Treasurer
+                            </li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2026</span><br>BU</li>
-                            <li><span>2018-2022</span><br>High school</li>
-                            <li><span>2017-2019</span><br>Designing Web/App Interfaces</li>
+                            <li><span><i>Graduation Date: May 2026</i></span><br><b>Boston University</b><br>
+                                B.A. in Mathematics and Computer Science, GPA: 4.0
+                            </li>
+                            <li><span><i>Date: Aug 2022 - June 2023</i></span><br><b>University of California, Santa Barbara <br>
+                            </b>B.S. in Applied Mathematics, GPA: 3.95
+
+                            </li>
+                            <li><span><i>Date: Aug 2018 - June 2022
+                            </i></span><br><b>Homestead High School                                <br>
+                            </b>GPA: 3.97
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -72,25 +105,25 @@
     <!-- SERVICES -->
     <div id="services">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
+            <h1 class="sub-title">My Projects</h1>
             <div class="services-list">
                 <div>
-                    <i class="fa-solid fa-code"></i> 
-                    <h2>Web Design</h2>
-                    <p>Something Something Something Something Something Something Something Something Something Something</p>
-                    <a href="#">Learn more</a>
+                    <i class="fa-solid fa-link"></i> 
+                    <h2>MISSED CONNECTIONS</h2>
+                    <p>Full Stack iOS Social App</p>
+                    <a href="https://github.com/frankiscuwu/Missed-Connections">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-crop"></i>
-                    <h2>Another Design</h2>
-                    <p>Something</p>
-                    <a href="#">Learn more</a>
+                    <h2>TILINGS AND TOPOLOGICAL DISKS</h2>
+                    <p>Math Research Presentation</p>
+                    <a href="https://drive.google.com/file/d/1d-LlgirlAWp-9ZKwsIty9MyNWeFUT284/view">Learn more</a>
                 </div>
                 <div>
-                    <i class="fa-brands fa-app-store"></i>
-                    <h2>Another another Design</h2>
-                    <p>Something</p>
-                    <a href="#">Learn more</a>
+                    <i class="fa-solid fa-person"></i>
+                    <h2>RACIAL DEMOGRAPHICS IN HIGHER EDUCATION</h2>
+                    <p>Data Analysis Project</p>
+                    <a href="https://jodiyu.github.io/jodiyu-ma415-final/big_picture.html">Learn more</a>
                 </div>
             </div>
         </div>
@@ -103,29 +136,29 @@
                 <div class="work">
                     <img src="images/work1.jpeg">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>This app blah blah blah</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Unofficial Transcripts</h3>
+                        <p>Unofficial transcripts are linked and accessible via google drive</p>
+                        <a href="https://drive.google.com/drive/folders/1rR05SylpiozEBwYJveS9-spCA2y7R_-3?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work1.jpeg">
+                    <img src="images/work2.png">
                     <div class="layer">
-                        <h3>Another App</h3>
-                        <p>This app blah blah blah</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Essays</h3>
+                        <p>Short articles I wrote over the years</p>
+                        <a href="https://drive.google.com/drive/folders/1rIpyOCSVGkFqQgWmi6MIgDS3DgQyWMMn?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work1.jpeg">
+                    <img src="images/work3.png">
                     <div class="layer">
-                        <h3>A third App</h3>
-                        <p>This app blah blah blah</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Reading List</h3>
+                        <p>A list of some of my favorite books</p>
+                        <a href="https://drive.google.com/drive/folders/1BxFuGvXBndvIYlo2-n0yiPb-umSPiUao?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See More</a>
+            <!-- <a href="#" class="btn">See More</a> -->
         </div>
     </div>
 
@@ -135,13 +168,11 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>jodilinyu@gmail.com</p>
-                    <p><i class="fa-solid fa-square-phone"></i>6502241740</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>jodiyu@bu.edu</p>
+                    <p><i class="fa-solid fa-square-phone"></i>(650)224-1730</p>
                 <div class="social-icons">
-                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/jodiyu"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jodi-yu-6104022a4/"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
                 <a href="#" download class="btn btn2">Download Resume</a>
             </div>
